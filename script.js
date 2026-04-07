@@ -2,6 +2,7 @@
 // 2 - Forma antiga usando o var
 // 3 - Atualmente usando o let 
 // 4 - const de constante = um valor que não será modificado 
+//  shift + Alt e seta para baixo duplica as linhas
 
 
 idade = 22
