@@ -30,3 +30,21 @@ for(let cont = 0; cont < palavra.length; cont++ ) {
     console.log(palavra[cont])
 }
 // O contador sempre começa na posição 0 
+
+
+console.log('====================================')
+// while e do...while
+let contt = 1
+
+while (contt <= 10) {
+    console.log('Número atual:', contt)
+    contt++
+}
+
+console.log('====================================')
+let num = 1
+do {
+    console.log('Número atual:', num)
+    num++
+} while (num <= 10);
+// While verifica primeiro e se for falso nunca executa - doWhile faz primeiro e depois verifica 
