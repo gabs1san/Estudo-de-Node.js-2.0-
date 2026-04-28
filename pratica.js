@@ -48,4 +48,38 @@ console.log('============================')
 
 
 // Exercício 6
+const identidade = 18
 
+if(identidade >= 18){
+    console.log('Pode comprar bebida alcoólica')
+} else {
+    console.log('Venda proibida para menores de 18 anos')
+}
+console.log('============================')
+
+// Exercício 7
+let horaAtual = 21
+
+if(horaAtual >= 6 && horaAtual <= 12){
+    console.log('Bom dia')
+} else if(horaAtual >= 13 && horaAtual <= 18) {
+    console.log('Boa tarde')
+} else {
+    console.log('Boa noite')
+}
+console.log('============================')
+
+// Exercício 8
+const num = 0;
+const sinal = Math.sign(num);
+
+if (sinal === 1) {
+  console.log("Positivo");
+} else if (sinal === -1) {
+  console.log("Negativo");
+} else {
+  console.log("Zero"); // Trata 0 e -0
+}
+console.log('============================')
+
+// Exercício 9

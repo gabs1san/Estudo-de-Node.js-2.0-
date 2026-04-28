@@ -20,3 +20,7 @@ if(notaDoAluno >= 9) {
 } else {
     console.log("A nota do aluno foi péssima!")
 }
+
+// operador ternário 
+idade >= 18 ? console.log('maior de idade') : console.log('menor de idade')
+
